@@ -2,10 +2,10 @@ import json
 import requests
 
 
-def getVerses(passage='Mark', to_chapter=None):
+def get_verses(passage='Mark', to_chapter=None):
     """
-    from api.utils import getVerses
-    getVerses(to_chapter=1)
+    from api.utils import get_verses
+    get_verses(to_chapter=1)
     """
     chapter = 1
     verses = ''

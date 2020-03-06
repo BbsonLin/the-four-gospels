@@ -7,6 +7,9 @@ name = "pypi"
 flask = "*"
 python-dotenv = "*"
 requests = "*"
+jieba = "*"
+wordcloud = "*"
+pandas = "*"
 
 [dev-packages]
 "flake8" = "*"
